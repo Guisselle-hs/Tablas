@@ -1,0 +1,85 @@
+/* normalizar los estilos: es eliminar los estilos que el navegador aplica */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(219, 154, 245);
+}
+.contenedor{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 2px solid   rgb(24, 0, 63);
+    border-collapse: collapse;
+    background-color: rgb(197, 183, 248);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+table, th{
+    border: 3px solid   black;
+}
+th{
+    background-color: rgb(138, 122, 253);
+}
+header{
+    background-color: rgb(160, 55, 108);
+    padding: 15px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+h2{
+    color: rgb(240, 188, 207);
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(116, 104, 110);
+}
+.data{
+    background-color: rgb(217, 215, 247);
+}
+.empresa{
+    border: 6px solid black;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 350px;
+}
+
+.texto{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+footer{
+    background-color: rgb(160, 55, 108);
+}
